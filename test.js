@@ -25,3 +25,12 @@ let obj={
   obj.greet();
   let obj2=obj;
   console.log(obj);
+  let a1= [10,29,30];
+  a1.map((number,index) => {
+    console.log(number);
+    console.log(index);
+  })
+  a1.map((number) => {
+    console.log(number+2);
+  })
+  
